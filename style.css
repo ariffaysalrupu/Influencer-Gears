@@ -15,8 +15,20 @@ p{
     /* letter-spacing: 0.252px; */
 }
 
-button{
+.primary_button{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: .75rem 1.9rem;
+    background: #E02C6D;
+    gap: 8px;
+    border: none;
+    border-radius: 2.5rem;
 
+}
+
+.primary_button img{
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(190deg);
 }
 
 nav{
@@ -61,6 +73,68 @@ nav .icons .search-icon,.Cart-icon{
     width: 24px;
 }
 
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 7.5rem;
+    align-items: center; 
+}
+
+.hero-section-text{
+    width: 36rem;
+    /* padding: 0 3rem; */
+}
+
+.hero-section-text h1{
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    Font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section-text p{
+    margin-bottom: 1rem;
+}
+
+.hero-section-image .circle{
+    width: 475px;
+height: 475px;
+}
+
+.hero-section-image .camera{
+    position: absolute;
+    top: 40%;
+    left: 69%;   
+}
+
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.horizontal-line{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+hr{
+    width: 50%;
+    background-color: rgba(75, 75, 75, 0.1);
+    width: 1110px;
+    height: 1px;
+    border: none;
+
+}
+
+.sponsor .sponsor-images{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+}
 
 
 .container{
