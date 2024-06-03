@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #787885;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 143%; 20.02px */
+    /* letter-spacing: 0.252px; */
+}
+
+button{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7.5rem;
+    align-items: center;
+    /* margin: 0 7.5rem; */
+}
+
+.right-nav{
+    display: flex;
+}
+
+.right-nav ui{
+    display: flex;
+    gap: 1.9rem;
+}
+
+.right-nav ui li {
+    list-style-type: none;
+    color: black;
+}
+
+.right-nav ui li a{   
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav .right-nav{
+    gap: 3rem;
+}
+
+nav .icons{
+    display: flex;
+    gap: 1.9rem;
+   
+}
+nav .icons .search-icon,.Cart-icon{
+    width: 24px;
+}
+
+
+
+.container{
+    width: 70%;
+    max-width: 63rem;
+    margin: 0 auto;
+}
