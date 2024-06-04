@@ -31,6 +31,21 @@ p{
     filter: invert(1) sepia(1) saturate(5) hue-rotate(190deg);
 }
 
+.second-button{
+    color: #E02C6D;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+  
+
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -105,7 +120,7 @@ height: 475px;
 
 .hero-section-image .camera{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 69%;   
 }
 
@@ -139,9 +154,67 @@ hr{
 
 .container{
     width: 70%;
-    max-width: 63rem;
+    max-width: 70rem;
     margin: 0 auto;
+
 }
+
+.popular-section{
+    margin-top: 6.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.collection-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 3rem;
+}
+
+.card{
+    width: 329px;
+    height: 476px;
+    
+
+}
+
+.card-main{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);  
+}
+
+.card-text h2{
+    color: #18191F;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.card-text h3{
+    color: rgba(0, 0, 0, 0.87);
+    /* font-family: Inter; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    margin-bottom: .2rem;
+}
+
+.card-star-row{
+    display: flex;
+    gap: .7rem;
+    margin-bottom: .5rem;
+}
+
+.card-text .card-down-text{
+    width: 240px;
+    margin-bottom: .5rem;
+}
+
+
 
 @media screen and (max-width: 576px ) {
     
