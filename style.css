@@ -142,3 +142,7 @@ hr{
     max-width: 63rem;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 576px ) {
+    
+}
