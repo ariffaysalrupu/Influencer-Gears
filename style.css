@@ -24,11 +24,17 @@ p{
     gap: 8px;
     border: none;
     border-radius: 2.5rem;
+    cursor: pointer;
+    transition: .25s;
 
 }
 
 .primary_button img{
     filter: invert(1) sepia(1) saturate(5) hue-rotate(190deg);
+}
+
+.primary_button:hover{
+    background-color: #ff0037;
 }
 
 .second-button{
@@ -42,8 +48,7 @@ p{
     font-size: 1rem;
     font-weight: 700;
     margin-top: 2rem;
-  
-
+    cursor: pointer;
 }
 
 nav{
