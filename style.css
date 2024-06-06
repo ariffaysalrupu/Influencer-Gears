@@ -71,6 +71,10 @@ nav{
     /* margin: 0 7.5rem; */
 }
 
+.menu{
+    display: none;
+}
+
 .right-nav{
     display: flex;
 }
@@ -284,7 +288,7 @@ footer{
 
 @media screen and (max-width:576px) {
     nav{
-        display: block;
+        display:flex;
         align-items: center;
         text-align: center;
         padding: 2rem 1.5rem;
@@ -292,10 +296,22 @@ footer{
 
     }
 
+    .menu{
+        display: flex;
+    }
+
     .right-nav{
         display: block;
         text-align: center;
         align-items: center;
+    }
+
+    .right-nav ui{
+        display: none;
+    }
+
+    .right-nav .icons .search-icon{
+        display: none;
     }
 
     .hero-section{
